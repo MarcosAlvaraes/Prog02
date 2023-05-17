@@ -23,6 +23,7 @@ Partial Class Form3
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Panel1 = New Panel()
+        Label5 = New Label()
         Label4 = New Label()
         Label3 = New Label()
         Label2 = New Label()
@@ -32,12 +33,12 @@ Partial Class Form3
         TextBox2 = New TextBox()
         TextBox1 = New TextBox()
         Label1 = New Label()
-        Label5 = New Label()
         Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Panel1
         ' 
+        Panel1.BackColor = Color.MediumTurquoise
         Panel1.Controls.Add(Label5)
         Panel1.Controls.Add(Label4)
         Panel1.Controls.Add(Label3)
@@ -53,6 +54,14 @@ Partial Class Form3
         Panel1.Size = New Size(758, 418)
         Panel1.TabIndex = 0
         ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Location = New Point(299, 317)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(47, 15)
+        Label5.TabIndex = 9
+        Label5.Text = "Volume"' 
         ' Label4
         ' 
         Label4.AutoSize = True
@@ -64,7 +73,7 @@ Partial Class Form3
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(125, 178)
+        Label3.Location = New Point(135, 178)
         Label3.Name = "Label3"
         Label3.Size = New Size(53, 15)
         Label3.TabIndex = 7
@@ -79,22 +88,25 @@ Partial Class Form3
         Label2.Text = "Comprimento :"' 
         ' Button1
         ' 
-        Button1.Location = New Point(93, 317)
+        Button1.BackColor = Color.FromArgb(CByte(255), CByte(192), CByte(255))
+        Button1.Location = New Point(62, 317)
         Button1.Name = "Button1"
         Button1.Size = New Size(113, 57)
         Button1.TabIndex = 5
         Button1.Text = "Calcular Volume"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' TextBox4
         ' 
-        TextBox4.Location = New Point(212, 335)
+        TextBox4.BackColor = SystemColors.GradientActiveCaption
+        TextBox4.Location = New Point(194, 335)
         TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(236, 23)
+        TextBox4.Size = New Size(282, 23)
         TextBox4.TabIndex = 4
         ' 
         ' TextBox3
         ' 
+        TextBox3.BackColor = SystemColors.GradientActiveCaption
         TextBox3.Location = New Point(194, 236)
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(282, 23)
@@ -102,6 +114,7 @@ Partial Class Form3
         ' 
         ' TextBox2
         ' 
+        TextBox2.BackColor = SystemColors.GradientActiveCaption
         TextBox2.Location = New Point(194, 175)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(282, 23)
@@ -109,6 +122,7 @@ Partial Class Form3
         ' 
         ' TextBox1
         ' 
+        TextBox1.BackColor = SystemColors.GradientActiveCaption
         TextBox1.Location = New Point(194, 113)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(282, 23)
@@ -122,14 +136,6 @@ Partial Class Form3
         Label1.Size = New Size(170, 15)
         Label1.TabIndex = 0
         Label1.Text = "Calcular Volume de um tanque"' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Location = New Point(299, 317)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(47, 15)
-        Label5.TabIndex = 9
-        Label5.Text = "Volume"' 
         ' Form3
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
