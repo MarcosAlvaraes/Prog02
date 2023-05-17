@@ -23,20 +23,22 @@ Partial Class Form3
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Panel1 = New Panel()
-        Label1 = New Label()
-        TextBox1 = New TextBox()
-        TextBox2 = New TextBox()
-        TextBox3 = New TextBox()
-        TextBox4 = New TextBox()
-        Button1 = New Button()
-        Label2 = New Label()
-        Label3 = New Label()
         Label4 = New Label()
+        Label3 = New Label()
+        Label2 = New Label()
+        Button1 = New Button()
+        TextBox4 = New TextBox()
+        TextBox3 = New TextBox()
+        TextBox2 = New TextBox()
+        TextBox1 = New TextBox()
+        Label1 = New Label()
+        Label5 = New Label()
         Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Panel1
         ' 
+        Panel1.Controls.Add(Label5)
         Panel1.Controls.Add(Label4)
         Panel1.Controls.Add(Label3)
         Panel1.Controls.Add(Label2)
@@ -51,42 +53,30 @@ Partial Class Form3
         Panel1.Size = New Size(758, 418)
         Panel1.TabIndex = 0
         ' 
-        ' Label1
+        ' Label4
         ' 
-        Label1.AutoSize = True
-        Label1.Location = New Point(62, 37)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(170, 15)
-        Label1.TabIndex = 0
-        Label1.Text = "Calcular Volume de um tanque"' 
-        ' TextBox1
+        Label4.AutoSize = True
+        Label4.Location = New Point(133, 244)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(45, 15)
+        Label4.TabIndex = 8
+        Label4.Text = "Altura :"' 
+        ' Label3
         ' 
-        TextBox1.Location = New Point(194, 113)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(282, 23)
-        TextBox1.TabIndex = 1
+        Label3.AutoSize = True
+        Label3.Location = New Point(125, 178)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(53, 15)
+        Label3.TabIndex = 7
+        Label3.Text = "Largura :"' 
+        ' Label2
         ' 
-        ' TextBox2
-        ' 
-        TextBox2.Location = New Point(194, 175)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(282, 23)
-        TextBox2.TabIndex = 2
-        ' 
-        ' TextBox3
-        ' 
-        TextBox3.Location = New Point(194, 236)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(282, 23)
-        TextBox3.TabIndex = 3
-        ' 
-        ' TextBox4
-        ' 
-        TextBox4.Location = New Point(240, 335)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(236, 23)
-        TextBox4.TabIndex = 4
-        ' 
+        Label2.AutoSize = True
+        Label2.Location = New Point(106, 116)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(88, 15)
+        Label2.TabIndex = 6
+        Label2.Text = "Comprimento :"' 
         ' Button1
         ' 
         Button1.Location = New Point(93, 317)
@@ -96,30 +86,50 @@ Partial Class Form3
         Button1.Text = "Calcular Volume"
         Button1.UseVisualStyleBackColor = True
         ' 
-        ' Label2
+        ' TextBox4
         ' 
-        Label2.AutoSize = True
-        Label2.Location = New Point(106, 116)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(82, 15)
-        Label2.TabIndex = 6
-        Label2.Text = "Comprimento"' 
-        ' Label3
+        TextBox4.Location = New Point(212, 335)
+        TextBox4.Name = "TextBox4"
+        TextBox4.Size = New Size(236, 23)
+        TextBox4.TabIndex = 4
         ' 
-        Label3.AutoSize = True
-        Label3.Location = New Point(125, 178)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(47, 15)
-        Label3.TabIndex = 7
-        Label3.Text = "Largura"' 
-        ' Label4
+        ' TextBox3
         ' 
-        Label4.AutoSize = True
-        Label4.Location = New Point(133, 244)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(39, 15)
-        Label4.TabIndex = 8
-        Label4.Text = "Altura"' 
+        TextBox3.Location = New Point(194, 236)
+        TextBox3.Name = "TextBox3"
+        TextBox3.Size = New Size(282, 23)
+        TextBox3.TabIndex = 3
+        ' 
+        ' TextBox2
+        ' 
+        TextBox2.Location = New Point(194, 175)
+        TextBox2.Name = "TextBox2"
+        TextBox2.Size = New Size(282, 23)
+        TextBox2.TabIndex = 2
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.Location = New Point(194, 113)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(282, 23)
+        TextBox1.TabIndex = 1
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Location = New Point(62, 37)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(170, 15)
+        Label1.TabIndex = 0
+        Label1.Text = "Calcular Volume de um tanque"' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Location = New Point(299, 317)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(47, 15)
+        Label5.TabIndex = 9
+        Label5.Text = "Volume"' 
         ' Form3
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -143,4 +153,5 @@ Partial Class Form3
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label5 As Label
 End Class
