@@ -140,7 +140,7 @@ Partial Class Form3
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(624, 450)
         Controls.Add(Panel1)
         Name = "Form3"
         Text = "Form3"

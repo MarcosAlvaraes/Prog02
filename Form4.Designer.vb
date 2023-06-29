@@ -30,10 +30,10 @@ Partial Class Form4
         TextBox2 = New TextBox()
         txtResultado = New TextBox()
         Panel1 = New Panel()
+        Label4 = New Label()
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
-        Label4 = New Label()
         Panel1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -44,7 +44,7 @@ Partial Class Form4
         Button1.Name = "Button1"
         Button1.Size = New Size(100, 61)
         Button1.TabIndex = 0
-        Button1.Text = "Button1"
+        Button1.Text = "Somar"
         Button1.UseVisualStyleBackColor = False
         ' 
         ' Button2
@@ -54,7 +54,7 @@ Partial Class Form4
         Button2.Name = "Button2"
         Button2.Size = New Size(100, 61)
         Button2.TabIndex = 1
-        Button2.Text = "Button2"
+        Button2.Text = "Subtrair"
         Button2.UseVisualStyleBackColor = False
         ' 
         ' Button3
@@ -64,7 +64,7 @@ Partial Class Form4
         Button3.Name = "Button3"
         Button3.Size = New Size(100, 61)
         Button3.TabIndex = 2
-        Button3.Text = "Button3"
+        Button3.Text = "Multiplicar"
         Button3.UseVisualStyleBackColor = False
         ' 
         ' Button4
@@ -74,7 +74,7 @@ Partial Class Form4
         Button4.Name = "Button4"
         Button4.Size = New Size(100, 61)
         Button4.TabIndex = 3
-        Button4.Text = "Button4"
+        Button4.Text = "Dividir"
         Button4.UseVisualStyleBackColor = False
         ' 
         ' TextBox1
@@ -121,6 +121,14 @@ Partial Class Form4
         Panel1.Size = New Size(353, 368)
         Panel1.TabIndex = 7
         ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Location = New Point(194, 63)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(104, 15)
+        Label4.TabIndex = 10
+        Label4.Text = "Segundo Numero:"' 
         ' Label3
         ' 
         Label3.AutoSize = True
@@ -145,14 +153,6 @@ Partial Class Form4
         Label1.Size = New Size(70, 15)
         Label1.TabIndex = 7
         Label1.Text = "Calculadora"' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Location = New Point(194, 63)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(104, 15)
-        Label4.TabIndex = 10
-        Label4.Text = "Segundo Numero:"' 
         ' Form4
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
